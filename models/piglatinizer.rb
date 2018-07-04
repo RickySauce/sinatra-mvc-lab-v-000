@@ -18,12 +18,12 @@ class PigLatinizer
     if letters.count == 0
       letters << text.shift
       text << letters << "way"
-      text.join
+      text.flatten.join
     else
       text << letters << "ay"
-      text.join
+      text.flatten.join
     end
-    text
+    text.
     binding.pry
   end
 
