@@ -33,7 +33,7 @@ class PigLatinizer
       end
       new_text_array << text
     end
-    binding.pry
+    new_text_array.join
   end
 
 end
