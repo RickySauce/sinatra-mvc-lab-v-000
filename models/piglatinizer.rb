@@ -23,6 +23,7 @@ class PigLatinizer
       else
         text << "way"
         text = text.flatten.join
+      end
     else
       text << letters << "ay"
       text = text.flatten.join
