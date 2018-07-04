@@ -16,6 +16,7 @@ class PigLatinizer
     text = text.split("")
     binding.pry
     letters.each_with_index {|letter, index| text.delete_at(index)}
+    binding.pry
     if letters.count == 0
       letters << text.shift
       text << letters << "way"
