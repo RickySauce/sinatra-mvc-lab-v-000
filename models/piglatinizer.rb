@@ -16,6 +16,7 @@ class PigLatinizer
       end
       new_text
     end
+    new_text
     binding.pry
   end
 
