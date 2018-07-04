@@ -14,8 +14,8 @@ class PigLatinizer
         letters << letter
         new_text.find {|l| l.delete if l == letter}
       end
+      binding.pry
     end
-binding.pry
   end
 
 end
