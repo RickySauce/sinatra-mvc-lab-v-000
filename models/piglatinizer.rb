@@ -17,7 +17,6 @@ class PigLatinizer
     text = text.split("")
     letters.each_with_index {|letter, index| text.delete_at(index)}
     text
-    binding.pry
   end
 
 end
