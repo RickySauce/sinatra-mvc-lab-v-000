@@ -4,7 +4,7 @@ class PigLatinizer
 
   def piglatinize(text)
     vowels = ["a","e","i","o","u"]
-    new_text = text.split("")
+    new_text = text.downcase.split("")
     letters = []
     new_text.each do |letter|
       if vowels.any?{|vowel| vowel == letter}
