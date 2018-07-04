@@ -31,6 +31,7 @@ class PigLatinizer
         text = text.flatten.join
       end
       text
+      binding.pry
     end
     binding.pry
   end
