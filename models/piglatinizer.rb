@@ -14,7 +14,7 @@ class PigLatinizer
         letters << letter
       end
     end
-    binding.pry
+
   end
 
 end
