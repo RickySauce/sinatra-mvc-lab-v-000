@@ -4,6 +4,7 @@ class PigLatinizer
 
   def piglatinize(text)
     text_array = text.split(" ")
+    new_text_array = []
     text_array.each do |text|
       vowels = ["a","e","i","o","u"]
       new_text = text.downcase.split("")
@@ -30,8 +31,7 @@ class PigLatinizer
         text << letters << "ay"
         text = text.flatten.join
       end
-      text
-      binding.pry
+      new_text_array << text
     end
     binding.pry
   end
