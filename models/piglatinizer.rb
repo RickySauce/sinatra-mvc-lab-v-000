@@ -12,6 +12,7 @@ class PigLatinizer
         text.clear
       else
         letters << letter
+        new_text.shift
       end
       binding.pry
     end
