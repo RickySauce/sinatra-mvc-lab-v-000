@@ -14,9 +14,9 @@ class PigLatinizer
         letters << letter
         new_text.delete_at(index)
       end
-      new_text
-      binding.pry
     end
+    new_text
+    binding.pry
   end
 
 end
