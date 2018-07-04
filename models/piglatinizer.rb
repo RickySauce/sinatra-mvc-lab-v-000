@@ -33,7 +33,7 @@ class PigLatinizer
       end
       new_text_array << text
     end
-    new_text_array.join
+    new_text_array.join(" ")
   end
 
 end
