@@ -8,7 +8,6 @@ class PigLatinizer
     letters = []
     text.each do |letter|
       binding.pry
-      end
     end
   end
 
