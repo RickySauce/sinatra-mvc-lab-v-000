@@ -7,10 +7,10 @@ class PigLatinizer
     text = text.split("")
     letters = []
     text.each do |letter|
-      if vowels.any?{|vowel| vowel != letter}
-        letters << letter
-      else
+      if vowels.any?{|vowel| vowel == letter}
         text.clear
+      else
+        letters << letter
       end
       binding.pry
     end
