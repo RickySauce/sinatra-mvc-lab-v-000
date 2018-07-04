@@ -13,6 +13,7 @@ class PigLatinizer
         text.clear
       else
         letters << letter
+        new_text
       end
       new_text
     end
