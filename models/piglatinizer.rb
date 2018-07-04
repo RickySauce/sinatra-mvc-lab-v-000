@@ -2,7 +2,7 @@ require 'pry'
 
 class PigLatinizer
 
-  def piglatinize(text)
+  def self.piglatinize(text)
     text_array = text.split(" ")
     new_text_array = []
     text_array.each do |text|
