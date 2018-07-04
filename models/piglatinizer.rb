@@ -12,7 +12,7 @@ class PigLatinizer
         text.clear
       else
         letters << letter
-        new_text.delete(index)
+        new_text -= [index]
       end
       binding.pry
     end
