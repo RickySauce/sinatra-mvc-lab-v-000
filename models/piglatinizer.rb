@@ -11,7 +11,7 @@ class PigLatinizer
       if vowels.any?{|vowel| vowel == letter}
         text.clear
       else
-        letters << letter 
+        letters << letter
         new_text.find {|l| l.delete if l == letter}
       end
     end
