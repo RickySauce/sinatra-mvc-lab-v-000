@@ -7,7 +7,7 @@ class PigLatinizer
     text = text.split("")
     letters = []
     text.each do |letter|
-      letters << letter until vowels.any? {|vowel| vowel == letter}
+      vowels.any? {|vowel| vowel == letter}
       binding.pry
     end
   end
