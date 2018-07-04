@@ -19,7 +19,7 @@ class PigLatinizer
       text = text.split("")
       (letters.count).times {text.shift}
       if letters.count == 0
-        if text.count < 5
+        if text.count < 4
           letters << text.shift
           text << letters << "way"
           text = text.flatten.join
