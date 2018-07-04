@@ -23,7 +23,7 @@ class PigLatinizer
       text << letters << "ay"
       text.flatten.join
     end
-    text.
+    text
     binding.pry
   end
 
