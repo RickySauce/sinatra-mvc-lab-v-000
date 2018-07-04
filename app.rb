@@ -7,8 +7,9 @@ class App < Sinatra::Base
   end
 
   post '/piglatinize' do
-    @transformer = PigLatinizer.new
-    @transformer.piglatinize(params)
+    @phrase = PigLatinizer.new 
+    @phrase = @phrase.piglatinize(params)
+    binding.pry
   end
 
 end
