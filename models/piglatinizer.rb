@@ -15,7 +15,6 @@ class PigLatinizer
     end
     text = text.split("")
     (letters.count).times {text.shift}
-    binding.pry
     if letters.count == 0
       letters << text.shift
       text << letters << "way"
